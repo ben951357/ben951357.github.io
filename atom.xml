@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-19T07:21:01.982Z</updated>
+  <updated>2017-09-19T08:16:59.769Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo deploy on Github page</title>
+    <link href="http://yoursite.com/2017/09/19/hexo-deploy-on-Github-page/"/>
+    <id>http://yoursite.com/2017/09/19/hexo-deploy-on-Github-page/</id>
+    <published>2017-09-19T08:15:33.000Z</published>
+    <updated>2017-09-19T08:16:59.769Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install <span class="string">"hexo-deployer-git"</span> --save</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>關於這blog</title>
     <link href="http://yoursite.com/2017/09/19/%E9%97%9C%E6%96%BC%E9%80%99blog/"/>
     <id>http://yoursite.com/2017/09/19/關於這blog/</id>
     <published>2017-09-19T07:14:52.000Z</published>
-    <updated>2017-09-19T07:21:01.982Z</updated>
+    <updated>2017-09-19T07:26:56.915Z</updated>
     
-    <content type="html"><![CDATA[<p>這個blog是為了放置我想說的話和腦洞而搭建的，歡迎各位亂入探討看法。當然也歡迎分享但分享請貼上網站，最好也要先告訴我一聲。</p><p>因為blog主是香港人的緣故所以很大機會文章中會出現中英夾雜的情況，而blog主本人懂中文英文以及少量日文所以歡迎使用以上三種語言交流。<del>就算你用日文我也只能用英文回答就是</del></p><p>這個blog主要是由以下幾種元素組成(不定時更新)：<br>    電腦程式與科技之類的話題<br>    少女前線<br>    艦これ<br>    <del>可能會有的小說分享</del><br>    其他我腦洞大開的話題<br>亦歡迎人推坑就是了</p><p>順帶一提blog主是個百合控，目前深陷少前坑</p>]]></content>
+    <content type="html"><![CDATA[<p>這個blog是為了放置我想說的話和腦洞而搭建的，歡迎各位亂入探討看法。當然也歡迎分享但分享請貼上網站，最好也要先告訴我一聲。</p><p>因為blog主是香港人的緣故所以很大機會文章中會出現中英夾雜的情況，而blog主本人懂中文英文以及少量日文所以歡迎使用以上三種語言交流。<del>就算你用日文我也只能用英文回答就是</del></p><p>這個blog主要是由以下幾種元素組成(不定時更新)：<br>&nbsp;&nbsp; 電腦程式與科技之類的話題<br>&nbsp;&nbsp; 少女前線<br>&nbsp;&nbsp; 艦これ<br>&nbsp;&nbsp; <del>可能會有的</del>小說分享<br>&nbsp;&nbsp; 其他我腦洞大開的話題<br>亦歡迎人推坑就是了</p><p>順帶一提blog主是個百合控，目前深陷少前坑</p><p>有意聊天推坑的人歡迎用email/在噗上找我，之後可能也會開twitter就是</p>]]></content>
     
     <summary type="html">
     
