@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-19T08:16:59.769Z</updated>
+  <updated>2017-09-19T07:26:56.915Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hexo deploy on Github page</title>
-    <link href="http://yoursite.com/2017/09/19/hexo-deploy-on-Github-page/"/>
-    <id>http://yoursite.com/2017/09/19/hexo-deploy-on-Github-page/</id>
-    <published>2017-09-19T08:15:33.000Z</published>
-    <updated>2017-09-19T08:16:59.769Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install <span class="string">"hexo-deployer-git"</span> --save</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
-    
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
-    
-  </entry>
   
   <entry>
     <title>關於這blog</title>
