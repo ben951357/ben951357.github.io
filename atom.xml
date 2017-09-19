@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-19T07:26:56.915Z</updated>
+  <updated>2017-09-19T13:11:08.949Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[hexo] 在Github Page上Deploy</title>
+    <link href="http://yoursite.com/2017/09/19/hexo-%E5%9C%A8Github-Page%E4%B8%8ADeploy/"/>
+    <id>http://yoursite.com/2017/09/19/hexo-在Github-Page上Deploy/</id>
+    <published>2017-09-19T14:32:52.000Z</published>
+    <updated>2017-09-19T13:11:08.949Z</updated>
+    
+    <content type="html"><![CDATA[<p>都丟上來Github了什麼也不寫好像也不太好，於是就寫寫怎樣把這個blog從電腦丟上去Github Page了<br>我家的電腦是用Windows + Git Bash來進行的所以教學就會跟這個來做了</p><p>首先當然是要有一個Github賬號，然後就是一個已經存在的hexo blog<br>當上述的都有齊了之後你只需要3步以後就能用很方便的hexo d來把你的blog更新到Github去了</p><h2 id="如何把hexo-blog丟上Github"><a href="#如何把hexo-blog丟上Github" class="headerlink" title="如何把hexo blog丟上Github "></a>如何把hexo blog丟上Github <br><br></h2><h3 id="1-在Hexo上的部署"><a href="#1-在Hexo上的部署" class="headerlink" title="1. 在Hexo上的部署"></a>1. 在Hexo上的部署</h3><p>首先為你的hexo加裝以下配件來deploy到Github</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install <span class="string">"hexo-deployer-git"</span> --save</div></pre></td></tr></table></figure><p>之後在你的_config.yml的deploy欄修改成如下</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure><p>username是你自己的username，Github Page deploy網址是要求一定要在master這條branch的所以也不能改<br>然後hexo的準備已經好了</p><h3 id="2-在Github上的部署"><a href="#2-在Github上的部署" class="headerlink" title="2. 在Github上的部署"></a>2. 在Github上的部署</h3><p>首先你要有一個Github賬號，然後你需要在<a href="https://Github.com/new" target="_blank" rel="external">Github</a>建立一個和你同名的repository<br><img src="/2017/09/19/hexo-在Github-Page上Deploy/github_new.png" alt=""><br>建完之後放著就好，剩下的hexo會幫你完成</p><h3 id="3-建立SSH連接"><a href="#3-建立SSH連接" class="headerlink" title="3. 建立SSH連接"></a>3. 建立SSH連接</h3><p>如果你以前已經做過把Git Bash用SSH和Github連接起來那這一步就可以無視，如果沒有的話就請跟著以下的順序去做<br>詳細可以參考<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">Github Help</a>基本步驟如下<br>首先打開你的bash shell輸入以下command<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></div></pre></td></tr></table></figure></p><p>your_email就是你的github account的email<br>做完這步之後重開bash shell就好不用其他操作<br>之後就是回到Github在Github&gt;Setting&gt;SSH and GPG keys中加入你的SSH key<br>點選Add SSH key, 然後在你電腦裡面的C:\User\Username.ssh\ 裡面找到id_rsa.pub把他複製貼上到Github裡面的輸入框，然後點選Add SSH key就好<br>當完成之後你會見到你的SSH key已經加入你的Github account，那麼你的Git bash就可以不用輸入密碼直接連線到Github了</p><h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>完成以上的步驟之後，你就可以直接以以下command去直接deploy到Github Page了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure></p><p>當然如果你有新內容或者是第一次的話要想generate static file出來了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure></p><p>就這樣公開你的blog第一步就完成了(?)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;都丟上來Github了什麼也不寫好像也不太好，於是就寫寫怎樣把這個blog從電腦丟上去Github Page了&lt;br&gt;我家的電腦是用Windows + Git Bash來進行的所以教學就會跟這個來做了&lt;/p&gt;
+&lt;p&gt;首先當然是要有一個Github賬號，然後就是一個已經存在的
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>關於這blog</title>
