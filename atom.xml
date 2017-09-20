@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ben951357.github.io/"/>
   <updated>2017-09-19T17:06:31.218Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ben951357.github.io/</id>
   
   <author>
     <name>老Ben/紫薙(指揮官)</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>[hexo] Gitalk插件</title>
-    <link href="http://yoursite.com/2017/09/19/hexo-Gitalk%E6%8F%92%E4%BB%B6/"/>
-    <id>http://yoursite.com/2017/09/19/hexo-Gitalk插件/</id>
+    <link href="https://ben951357.github.io/2017/09/19/hexo-Gitalk%E6%8F%92%E4%BB%B6/"/>
+    <id>https://ben951357.github.io/2017/09/19/hexo-Gitalk插件/</id>
     <published>2017-09-19T15:27:51.000Z</published>
     <updated>2017-09-19T17:06:31.218Z</updated>
     
@@ -35,23 +35,23 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="hexo" scheme="https://ben951357.github.io/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://ben951357.github.io/tags/hexo/"/>
     
-      <category term="gitalk" scheme="http://yoursite.com/tags/gitalk/"/>
+      <category term="gitalk" scheme="https://ben951357.github.io/tags/gitalk/"/>
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+      <category term="github" scheme="https://ben951357.github.io/tags/github/"/>
     
-      <category term="jade" scheme="http://yoursite.com/tags/jade/"/>
+      <category term="jade" scheme="https://ben951357.github.io/tags/jade/"/>
     
   </entry>
   
   <entry>
     <title>[hexo] 在Github Page上Deploy</title>
-    <link href="http://yoursite.com/2017/09/19/hexo-%E5%9C%A8Github-Page%E4%B8%8ADeploy/"/>
-    <id>http://yoursite.com/2017/09/19/hexo-在Github-Page上Deploy/</id>
+    <link href="https://ben951357.github.io/2017/09/19/hexo-%E5%9C%A8Github-Page%E4%B8%8ADeploy/"/>
+    <id>https://ben951357.github.io/2017/09/19/hexo-在Github-Page上Deploy/</id>
     <published>2017-09-19T14:32:52.000Z</published>
     <updated>2017-09-19T13:11:08.949Z</updated>
     
@@ -67,19 +67,19 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="hexo" scheme="https://ben951357.github.io/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://ben951357.github.io/tags/hexo/"/>
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+      <category term="github" scheme="https://ben951357.github.io/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>關於這blog</title>
-    <link href="http://yoursite.com/2017/09/19/%E9%97%9C%E6%96%BC%E9%80%99blog/"/>
-    <id>http://yoursite.com/2017/09/19/關於這blog/</id>
+    <link href="https://ben951357.github.io/2017/09/19/%E9%97%9C%E6%96%BC%E9%80%99blog/"/>
+    <id>https://ben951357.github.io/2017/09/19/關於這blog/</id>
     <published>2017-09-19T07:14:52.000Z</published>
     <updated>2017-09-19T15:30:47.496Z</updated>
     
@@ -95,10 +95,10 @@
     
     </summary>
     
-      <category term="其他" scheme="http://yoursite.com/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://ben951357.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="關於" scheme="http://yoursite.com/tags/%E9%97%9C%E6%96%BC/"/>
+      <category term="關於" scheme="https://ben951357.github.io/tags/%E9%97%9C%E6%96%BC/"/>
     
   </entry>
   
