@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ben951357.github.io/"/>
-  <updated>2017-09-25T15:28:00.147Z</updated>
+  <updated>2017-09-25T15:42:54.202Z</updated>
   <id>https://ben951357.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[hexo] 插入youtube短片</title>
+    <link href="https://ben951357.github.io/2017/09/25/hexo-%E6%8F%92%E5%85%A5youtube%E7%9F%AD%E7%89%87/"/>
+    <id>https://ben951357.github.io/2017/09/25/hexo-插入youtube短片/</id>
+    <published>2017-09-25T15:30:13.000Z</published>
+    <updated>2017-09-25T15:42:54.202Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo要插入youtube短片官方是叫我們用<br><figure class="highlight md"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% youtube video_id %&#125;</div></pre></td></tr></table></figure></p><p>但想必用過的都覺得不好用，因為他限死了一個不適合的大小</p><p>解決方法很簡單，我們去inspect一下他弄了什麼出來結果發現是這樣的東西<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"315"</span> <span class="attr">src</span>=<span class="string">"https://www.youtube.com/embed/video_id"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></div></pre></td></tr></table></figure></p><p>只要在你的文章中直接引用上面那段code就行了，記得src前面要是<a href="https://www.youtube.com/embed不然短網址會被攔掉" target="_blank" rel="external">https://www.youtube.com/embed不然短網址會被攔掉</a><br>然後高度就自行調整到適合你的大小就行了<br><del>我這邊單純使用100%會出現各種奇奇怪怪的東西所以還是鎖定高度比較好，不過理論上來說不需要這樣就是</del></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;hexo要插入youtube短片官方是叫我們用&lt;br&gt;&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://ben951357.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://ben951357.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>[少前] 9-4e S勝金章各種打法攻略</title>
@@ -124,9 +149,9 @@
     
       <category term="hexo" scheme="https://ben951357.github.io/tags/hexo/"/>
     
-      <category term="gitalk" scheme="https://ben951357.github.io/tags/gitalk/"/>
-    
       <category term="github" scheme="https://ben951357.github.io/tags/github/"/>
+    
+      <category term="gitalk" scheme="https://ben951357.github.io/tags/gitalk/"/>
     
       <category term="jade" scheme="https://ben951357.github.io/tags/jade/"/>
     
